@@ -24736,6 +24736,18 @@ android_app_import {
 }
 
 android_app_import {
+    name: "OSOMCamera",
+    owner: "osom",
+    apk: "proprietary/product/priv-app/OSOMCamera/OSOMCamera.apk",
+    certificate: "platform",
+    dex_preopt: {
+        enabled: false,
+    },
+    privileged: true,
+    product_specific: true,
+}
+
+android_app_import {
     name: "ImsRcsService",
     owner: "osom",
     apk: "proprietary/system_ext/app/ImsRcsService/ImsRcsService.apk",

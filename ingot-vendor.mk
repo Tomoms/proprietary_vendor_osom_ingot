@@ -9,6 +9,7 @@ PRODUCT_COPY_FILES += \
     vendor/osom/ingot/proprietary/product/etc/permissions/UimGba.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/UimGba.xml \
     vendor/osom/ingot/proprietary/product/etc/permissions/UimGbaManager.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/UimGbaManager.xml \
     vendor/osom/ingot/proprietary/product/etc/permissions/UimService.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/UimService.xml \
+    vendor/osom/ingot/proprietary/product/etc/permissions/privapp_allowlist_com.osomprivacy.camera.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp_allowlist_com.osomprivacy.camera.xml \
     vendor/osom/ingot/proprietary/system/etc/permissions/privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-qti.xml \
     vendor/osom/ingot/proprietary/system/etc/sysconfig/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml \
     vendor/osom/ingot/proprietary/system_ext/etc/dpm/dpm.conf:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/dpm/dpm.conf \
@@ -1138,6 +1139,7 @@ PRODUCT_PACKAGES += \
     uimgbaservice \
     HotwordEnrollmentOKGoogleHEXAGON_WIDEBAND \
     HotwordEnrollmentXGoogleHEXAGON_WIDEBAND \
+    OSOMCamera \
     ImsRcsService \
     PowerOffAlarm \
     QtiTelephony \
